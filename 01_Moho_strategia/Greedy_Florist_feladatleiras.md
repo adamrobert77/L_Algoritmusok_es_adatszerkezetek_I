@@ -31,10 +31,10 @@ int k: emberek száma
 A visszatérési érték a virágok lehető legkisebb bekerülési költségének összege.  
   
 ### Megkötések
-$1  \leq virágszám, emberszám \leq 100$  
-$1  \leq virágok[i] \leq 10^6$  
+$1  \leq c.length, k \leq 100$  
+$1  \leq c[i] \leq 10^6$  
 $eredmény < 2^{31}$  
-$0 \leq i < virágszám$  
+$0 \leq i < c.length$  
 
 ### Példa2
 virágok = [2 5 6]  
