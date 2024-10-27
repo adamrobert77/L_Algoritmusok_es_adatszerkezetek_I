@@ -11,8 +11,8 @@ public class Solution {
         
         for(int i = c.length-1; i>=0; i--) {
             int vasarlo = i%k; // ezzel a modszerrel ismetlesesen vegig tudunk menni a vasarlokon, nincs szukseg minimum keresesre - sorban szolgaljuk ki a vasarlokat
-            eredmeny += (ennyi_viragot_vett[vasarlo] + 1)*c[i];
-            ennyi_viragot_vett[vasarlo] = ennyi_viragot_vett[vasarlo]+1;
+            eredmeny += (ennyi_viragot_vett[vasarlo] + 1)*c[i]; // leirasban olvashato osszefugges alapjan meghatarozasra kerul az eladasi ar, amelyet hozzaadunk az eredmenyhez
+            ennyi_viragot_vett[vasarlo] = ennyi_viragot_vett[vasarlo]+1; // az adott vasarlo kapott egy viragot, noveljuk a vasarolt viragok szamat eggyel
         }
         
         return eredmeny; 
