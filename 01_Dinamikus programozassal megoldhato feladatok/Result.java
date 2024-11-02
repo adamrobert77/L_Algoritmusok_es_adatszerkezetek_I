@@ -25,7 +25,7 @@ class Result {
     public static BigInteger fibonacciModified(int t1, int t2, int n) {
     // Write your code here
 
-        // FIGYELEM ----> A hackerrank teszteleshez a komplett feladat kimasolasa javasolt
+        // FIGYELMEZTETES ----> A hackerrank teszteleshez a komplett feladat kimasolasa javasolt
         // A megoldas kizarolag BigInteger valtozokkal mukodik, mert 64 bitnel nagyobb megoldas is keletkezhet
 
         // Ebbol adodoan a FGV visszateresi ertek at lett irva int-rol BigInteger-re, illetve a public class solution-ban talalhato
