@@ -26,12 +26,22 @@ Kezdjünk el lépkedni az első csúcsból, a fenti élek figyelembevételével.
   
 
 ### Megkötések
-$0  \leq t[1], t[2] \leq 2$  
-$3  \leq n \leq 20$  
-t[n] mérete akár egy 64 bites integernél is nagyobb lehet   
+$1  \leq q(esetek szama) \leq 10$  
+$2  \leq n \leq 1000$  
+$1  \leq m \leq (n*(n-1))/2$  
+$1  \leq u,v,s \leq n$  
+
   
 ### Bemenet
+- int n: csúcsok száma
+- int m: élek száma
+- int edges[m][2]: egy élre vonatkozó csúcspontok listája
+- int s: kezdő csúcspont (ahonnan a számolást értelmezzük)
+
+
+
 
   
-### Kimenet/visszatérési érték
-
+### Kimenet/visszatérési érték  
+Távolságokat tartalmazó lista:  
+`return List<Integer> result`
