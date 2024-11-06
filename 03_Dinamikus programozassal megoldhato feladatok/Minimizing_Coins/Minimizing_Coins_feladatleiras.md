@@ -1,7 +1,7 @@
 
 ### 03_Dinamikus programozással megoldható feladatok
 
-# Fibonacci Modified feladatleírás // CSES, közepes nehézség
+# Minimizing Coins feladatleírás // CSES, közepes nehézség
 Forrás: https://cses.fi/problemset/task/1634/
 ## Feladatleírás
 Vegyünk egy n érméből álló pénzrendszert, ahol mindegyik érme pozitív egész értékkel bír. A feladat kiszámolni, hogy adott összeget mennyi legkevesebb érméből lehet kifizetni.
