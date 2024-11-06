@@ -2,6 +2,7 @@
 
 # Minimizing Coins feladatleírás // CSES, közepes nehézség
 Forrás: https://cses.fi/problemset/task/1634/
+Teszt: https://cses.fi/problemset/submit/1634/ (bejelentkezést igényel, Main.java feltöltésével 18 teszteset fut le)
 ## Feladatmegoldás
 1. Olvassuk be std input-ról az összes változót.
 2. A feladat megoldását dinamikus programozással kell megoldani, ezért hozzunk létre egy tömböt a már kiszámolt eredmények tárolására. A tömb index számai a pénzösszeget reprezentálják, és a 0 összeget is értelmezzük, ezért a tömb mérete: `pénzösszeg + 1`, ahol `index = 0 <--> pénzösszeg = 0  index = 1 <--> pénzösszeg = 1 és a felső határ index = pénzösszeg`.  ---->`int[] resultContainer = new int[sumOfMoney + 1];`
