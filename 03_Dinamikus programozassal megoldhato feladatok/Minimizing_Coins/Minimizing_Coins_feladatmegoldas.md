@@ -1,7 +1,7 @@
 ### 03_Dinamikus programozással megoldható feladatok
 
 # Minimizing Coins feladatleírás // CSES, közepes nehézség
-Forrás: https://cses.fi/problemset/task/1634/
+Forrás: https://cses.fi/problemset/task/1634/  
 Teszt: https://cses.fi/problemset/submit/1634/ (bejelentkezést igényel, Main.java feltöltésével 18 teszteset fut le)
 ## Feladatmegoldás
 1. Olvassuk be std input-ról az összes változót.
